@@ -5,10 +5,14 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1E3A5F; /* Dark Blue */
     color: white;
     padding: 1em 0;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
 }
 
 nav ul {
@@ -28,6 +32,16 @@ nav ul li a {
 
 main {
     padding: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section#about {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 footer {
